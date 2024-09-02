@@ -11,6 +11,10 @@ public class BuildingDao {
 	public EntityManager getEntityManager() {
 		return Persistence.createEntityManagerFactory("shyam").createEntityManager();
 	}
+	public class BuildingDao {
+	public EntityManager get() {
+		return ("shyam").createEntityManager();
+	}
 
     public void getById(int id) {
     	EntityManager entityManager = getEntityManager();
